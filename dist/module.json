@@ -1,0 +1,8 @@
+{
+  "name": "@plusrelocation/nuxt-alt-auth",
+  "version": "3.1.7",
+  "configKey": "auth",
+  "compatibility": {
+    "nuxt": "^3.0.0"
+  }
+}
