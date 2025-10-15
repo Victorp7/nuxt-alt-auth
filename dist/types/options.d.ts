@@ -107,15 +107,12 @@ export interface ModuleOptions {
 
     /**
      * Redirect URL for login, logout, callback and home.
-     * 
-     * *Note:* The `trans` argument is only available if 
-     * `nuxt/i18n` is available. 
      */
     redirect: {
-        login: string | ((auth: Auth, trans?: Function) => string);
-        logout: string | ((auth: Auth, trans?: Function) => string);
-        callback: string | ((auth: Auth, trans?: Function) => string);
-        home: string | ((auth: Auth, trans?: Function) => string);
+        login: string | ((auth: Auth) => string);
+        logout: string | ((auth: Auth) => string);
+        callback: string | ((auth: Auth) => string);
+        home: string | ((auth: Auth) => string);
     };
 
     /**

@@ -15,11 +15,6 @@ export class Auth {
   #tokenValidationInterval;
   constructor(ctx, options) {
     this.ctx = ctx;
-    if (typeof this.ctx.$localePath === "function") {
-      this.ctx.hook("i18n:localeSwitched", () => {
-        this.#transformRedirect(this.options.redirect);
-      });
-    }
     this.#transformRedirect(options.redirect);
     this.options = options;
     const initialState = {

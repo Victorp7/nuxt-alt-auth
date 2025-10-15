@@ -23,13 +23,6 @@ export class Auth {
     constructor(ctx: NuxtApp, options: ModuleOptions) {
         this.ctx = ctx;
 
-        if (typeof this.ctx.$localePath === 'function') {
-            // @ts-ignore - package may or may not be installed
-            this.ctx.hook('i18n:localeSwitched', () => {
-                this.#transformRedirect(this.options.redirect);
-            })
-        }
-
         // Apply to initial options
         this.#transformRedirect(options.redirect);
         this.options = options;
