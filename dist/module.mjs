@@ -6,7 +6,7 @@ import 'jwt-decode';
 import { existsSync } from 'fs';
 import { hash } from 'ohash';
 
-const name = "@plusrelocation/nuxt-alt-auth";
+const name = "@Victorp7/nuxt-alt-auth";
 const version = "3.1.7";
 
 const OAUTH2DEFAULTS = {

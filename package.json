@@ -1,8 +1,8 @@
 {
-    "name": "@plusrelocation/nuxt-alt-auth",
+    "name": "@Victorp7/nuxt-alt-auth",
     "version": "3.1.7",
     "description": "An alternative module to @nuxtjs/auth",
-    "homepage": "https://github.com/plusrelocation/nuxt-alt-auth",
+    "homepage": "https://github.com/Victorp7/nuxt-alt-auth",
     "author": "Denoder",
     "keywords": [
         "auth",
@@ -60,11 +60,11 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/plusrelocation/nuxt-alt-auth.git",
-        "directory": "@plusrelocation/nuxt-alt-auth"
+        "url": "git+https://github.com/Victorp7/nuxt-alt-auth.git",
+        "directory": "@Victorp7/nuxt-alt-auth"
     },
     "bugs": {
-        "url": "https://github.com/plusrelocation/nuxt-alt-auth/issues"
+        "url": "https://github.com/Victorp7/nuxt-alt-auth/issues"
     },
     "publishConfig": {
         "access": "public"
